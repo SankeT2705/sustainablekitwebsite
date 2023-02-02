@@ -2,10 +2,13 @@ body::-webkit-scrollbar {
     display: none;
 }
 
+.card::-webkit-scrollbar {
+    display: none;
+}
+
 body {
     background-color: #121212;
     font-family: 'Montserrat', sans-serif;
-    overflow: ;
 }
 
 .header {
@@ -35,7 +38,7 @@ body {
     background-color: #fff;
     color: black;
     padding: 10px 20px;
-    border-radius: 25px;
+    border-radius: 30px;
     font-size: 24px;
     border: none;
     margin-top: 50px;
@@ -45,6 +48,23 @@ body {
     background-color: #333;
     color: #fff;
     cursor: pointer;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    transform: translateY(-0.25rem);
+}
+
+.header:hover {
+    transform: translateY(-0.25rem);
+}
+
+.header h1:hover,
+p:hover {
+    transform: translateY(-0.25rem);
+}
+
+section:hover,
+footer:hover,
+h2:hover {
+    transform: translateY(-0.25rem);
 }
 
 .card:hover {
